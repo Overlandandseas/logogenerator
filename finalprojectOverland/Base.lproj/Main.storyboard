@@ -134,7 +134,7 @@
                             <constraint firstItem="b4G-sZ-b6n" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="zDD-P8-7um"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Preview" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Preview" image="previewicon" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="firstlinePreivewlbl" destination="hFe-P9-flF" id="NuK-WF-wGg"/>
                         <outlet property="previewViewItem" destination="IZg-9l-LPN" id="gEL-GA-oTP"/>
@@ -277,7 +277,7 @@
     <resources>
         <image name="decorationicon" width="40" height="40"/>
         <image name="imageiconthing" width="40" height="40"/>
-        <image name="second" width="30" height="30"/>
+        <image name="previewicon" width="40" height="40"/>
         <image name="textwithsmooth" width="40" height="40"/>
     </resources>
 </document>
