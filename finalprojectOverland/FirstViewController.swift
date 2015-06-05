@@ -16,6 +16,8 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var secondLinetxt: UITextField!
     @IBOutlet weak var firstLinetxt: UITextField!
     
+    @IBOutlet var textFields: [UITextField]!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +32,16 @@ class FirstViewController: UIViewController {
         lineOne = firstLinetxt.text
         lineTwo = secondLinetxt.text
         
+    }
+    @IBAction func editEnded(sender: AnyObject) {
+            sender.resignFirstResponder()
+    }
+    
+    
+    @IBAction func clearKeyboardHit(sender: AnyObject) {
+        for textField in textFields {
+            textField.resignFirstResponder()
+        }
     }
 
 
