@@ -68,7 +68,7 @@
                             <constraint firstItem="Sgl-Sf-Ybr" firstAttribute="top" secondItem="M9e-OJ-hnR" secondAttribute="bottom" constant="63" id="zWz-aa-DB1"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Company Title" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Company Title" image="textwithsmooth" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="firstLinetxt" destination="rXv-vg-HDh" id="GR4-z3-5wm"/>
                         <outlet property="secondLinetxt" destination="Xei-bg-uPS" id="Uiw-Rg-tew"/>
@@ -145,7 +145,7 @@
             </objects>
             <point key="canvasLocation" x="755" y="364"/>
         </scene>
-        <!--Gallery View Controller-->
+        <!--Image-->
         <scene sceneID="7K0-42-IEW">
             <objects>
                 <viewController id="Xu6-D6-NXX" customClass="GalleryViewController" customModule="finalprojectOverland" customModuleProvider="target" sceneMemberID="viewController">
@@ -206,7 +206,7 @@
                             <constraint firstItem="98E-um-l1h" firstAttribute="top" secondItem="dN2-5a-hy2" secondAttribute="bottom" constant="8" id="efy-sr-nj5"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="IIP-fa-Pfc"/>
+                    <tabBarItem key="tabBarItem" title="Image" image="imageiconthing" id="IIP-fa-Pfc"/>
                     <connections>
                         <outlet property="buttonFace" destination="lho-Rz-YFv" id="lky-rP-wWd"/>
                         <outlet property="imageView" destination="98E-um-l1h" id="b7F-Ru-9UK"/>
@@ -217,7 +217,7 @@
             </objects>
             <point key="canvasLocation" x="-633" y="681"/>
         </scene>
-        <!--My Table View Controller-->
+        <!--Decoration-->
         <scene sceneID="LKn-qF-VjG">
             <objects>
                 <tableViewController id="Le3-Ka-eS5" customClass="MyTableViewController" customModule="finalprojectOverland" customModuleProvider="target" sceneMemberID="viewController">
@@ -246,7 +246,7 @@
                             <outlet property="delegate" destination="Le3-Ka-eS5" id="tZs-Sk-AS3"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" selectedImage="first" systemItem="mostRecent" id="qFi-hB-hrj"/>
+                    <tabBarItem key="tabBarItem" title="Decoration" image="decorationicon" selectedImage="decorationicon" id="qFi-hB-hrj"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XUA-dl-3sf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -275,7 +275,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
+        <image name="decorationicon" width="40" height="40"/>
+        <image name="imageiconthing" width="40" height="40"/>
         <image name="second" width="30" height="30"/>
+        <image name="textwithsmooth" width="40" height="40"/>
     </resources>
 </document>
