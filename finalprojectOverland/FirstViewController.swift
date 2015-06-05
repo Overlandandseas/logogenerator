@@ -39,6 +39,7 @@ class FirstViewController: UIViewController {
     
     
     @IBAction func clearKeyboardHit(sender: AnyObject) {
+        //this is dumb
         for textField in textFields {
             textField.resignFirstResponder()
         }
