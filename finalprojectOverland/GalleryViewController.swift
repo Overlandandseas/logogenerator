@@ -50,7 +50,7 @@ class GalleryViewController: UIViewController, UIImagePickerControllerDelegate, 
             self.openCamera()
         }
         
-        var gallaryAction = UIAlertAction(title: "Gallary", style: .Default){
+        var gallaryAction = UIAlertAction(title: "Gallery", style: .Default){
             UIAlertAction in
             self.openGallary()
         }

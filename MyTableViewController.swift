@@ -10,7 +10,7 @@ import UIKit
 
 
 
-let listOfCrap = ["Square Outline", "Dimond Outline", "Circle Outline", "Underline", "X Shape", "Horizontal Lines", "None"]
+let listOfCrap = ["Square Outline", "Diamond Outline", "Circle Outline", "Underline", "X Shape", "Horizontal Lines", "None"]
 var selectedIndex: Int = 0
 
 
